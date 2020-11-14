@@ -1,10 +1,10 @@
-var canvas_width = 400;
-var canvas_height = 400;
+var canvas_width = screen.width / 2;
+var canvas_height = screen.height / 2;
 var padding = 10;
-var line_count = 20;
+var line_count = 15;
 var spacing = (canvas_width - 2*padding )/(line_count-1);
 let angle =0;
-let erase = false;
+let erase = true;
 var inc =0.12; //how clustered the white space is
 var thr = 0.75; //how much white space
 var yoff= 0;
@@ -13,6 +13,10 @@ var re=255;
 var blu=255;
 
 function setup() {
+  if(canvas_width > 400){
+    canvas_width = 400;
+    canvas_height = 400;
+  }
   var canvas = createCanvas(canvas_width, canvas_height);
   canvas.parent('sketch-holder');
   angleMode(DEGREES);
