@@ -1,7 +1,7 @@
 var canvas_width = screen.width / 2;
 var canvas_height = screen.height / 2;
 var padding = 20;
-var line_count = 29;
+var line_count = 39;
 var spacing = (canvas_width - 2*padding )/(line_count-1);
 let angle =0;
 let erase = true;
@@ -22,7 +22,6 @@ function setup() {
   angleMode(DEGREES);
   background(255);
   strokeWeight(5);
-  frameRate(4);
   make();
 
 }
@@ -31,7 +30,7 @@ function draw() {
  
 }
 
-function mouseWheel() {
+function mouseClicked() {
   make();
 }
 
