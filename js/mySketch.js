@@ -25,10 +25,13 @@ function setup() {
   angleMode(DEGREES);
   background(255);
   strokeWeight(canvas_width/90);
-  frameRate(20);
+
 }
 function mouseMoved(){
   moved = true;
+}
+function mouseClicked(){
+  moved = !moved;
 }
 function draw() {
   if(!moved)
