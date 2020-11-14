@@ -1,0 +1,99 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20201114T204113Z
+UID:20201114T204113Z-1011902610@marudot.com
+DTSTART;TZID=Europe/Berlin:20201119T170000
+DTEND;TZID=Europe/Berlin:20201119T190000
+SUMMARY:Annette Vee on Coding Literacy: How Computer Programming Is Changing Writing
+URL:https://danvers.github.io/oncoding/#av
+DESCRIPTION:Annette Vee is Associate Professor of English and Director of the Composition Program\, at the University of Pittsburgh\, Pennsylvania where she teaches undergraduate and graduate courses in writing\, digital composition\, materiality\, and literacy. Her teaching\, research and service all dwell at the intersections between computation and writing. She is the author of Coding Literacy (MIT Press\, 2017)\, which demonstrates how the theoretical tools of literacy can help us understand computer programming in its historical\, social and conceptual contexts. Her work is read in dozens of university courses in literacy\, composition\, textual studies\, digital humanities\, and computer science education.
+LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Annette Vee on Coding Literacy: How Computer Programming Is Changing Writing
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201114T204113Z
+UID:20201114T204113Z-640204683@marudot.com
+DTSTART;TZID=Europe/Berlin:20201203T170000
+DTEND;TZID=Europe/Berlin:20201203T190000
+SUMMARY:Stefan Püst on Coding Practices and Music: Towards a Textual Language Interface for High Level Composition 
+URL:https://danvers.github.io/oncoding/#sp
+DESCRIPTION:After earning his B.Sc. in Computer Science at the University of Applied Science in Brandenburg\, Stefan Püst worked as Android App developer for telematics system at the IBM Client Innovation Center in Magdeburg\, next to pursuing a master’s degree in the digital media program at the University of Applied Science in Brandenburg. Since 2016 he has worked as IT admin at the Film University Babelsberg. He was responsible for managing the computer lab infrastructure for the Animation\, Set Design and Creative Technologies programs. Since 2019 Stefan Püst is a research associate in the Creative Technologies group and pursues a PhD and researches music interaction mechanisms.
+LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stefan Püst on Coding Practices and Music: Towards a Textual Language Interface for High Level Composition 
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201114T204113Z
+UID:20201114T204113Z-905716137@marudot.com
+DTSTART;TZID=Europe/Berlin:20210107T150000
+DTEND;TZID=Europe/Berlin:20210107T170000
+SUMMARY:Pierre Depaz On the Role of Aesthetics In Understanding Source Code
+URL:https://danvers.github.io/oncoding/#pd
+DESCRIPTION:Pierre Depaz practically\, writes software for arts and media organizations\, such as museum pieces\, interactive installations\, machine learning or live performance\, amongst others. Conceptually\, he wrote versions of augmenting the gallery\, politics of code\, software art (image + text) \, alternate realities\, communications lab at new york university\, digital culture at sciences po and computational representations at the Film University. He currently teaches some of these.\n\nWeaving it all together\, he’s writing a doctoral thesis on the role of aesthetics in the understandings of source code.
+LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pierre Depaz On the Role of Aesthetics In Understanding Source Code
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201114T204113Z
+UID:20201114T204113Z-756184668@marudot.com
+DTSTART;TZID=Europe/Berlin:20210225T170000
+DTEND;TZID=Europe/Berlin:20210225T190000
+SUMMARY:Eleni-Ira Panourgia on Constructing Behaviour from Physical to Digital: Form\, response and playability across sound and sculpture
+URL:https://danvers.github.io/oncoding/#ep
+DESCRIPTION:Eleni-Ira Panourgia is a Teaching and Research Fellow (ATER) at Gustave Eiffel University (former Paris-Est Marne-la-Vallée). She recently completed a PhD in Art at the University of Edinburgh as a Scholar of the Onassis Foundation. Her research focuses on intersections of sculpture\, spatial dimensions and sound. She is working simultaneously on physical material and sound and is interested in developing an understanding of such complex morphologies and their potential within artistic\, design and social processes. Her research interests also include material exploration\, audio-visual relationships\, participatory and interactive design.
+LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Eleni-Ira Panourgia on Constructing Behaviour from Physical to Digital: Form, response and playability across sound and sculpture
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201114T204113Z
+UID:20201114T204113Z-1105904031@marudot.com
+DTSTART;TZID=Europe/Berlin:20210311T170000
+DTEND;TZID=Europe/Berlin:20210311T190000
+SUMMARY:Juliane Ahlborn on the Computation of Arts Aesthetics - Subject - Education
+URL:https://danvers.github.io/oncoding/#ja
+DESCRIPTION:Juliane Ahlborn completed her studies of Media Education - Audiovisual Culture and Communication at the Otto-von-Guericke University Magdeburg in March 2020. She works as a research assistant at the Centre for Teacher Training at the Otto-von-Guericke University. Furthermore\, she is holding a scholarship of the State of Saxony-Anhalt since July 2020. In her dissertation on Aesthetics - Subject - Education: The computation of arts\, she is concerned with changed structural conditions for education and subjectivation that owe their existence to digital mediality.
+LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Juliane Ahlborn on the Computation of Arts Aesthetics - Subject - Education
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
