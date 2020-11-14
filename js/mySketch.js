@@ -1,7 +1,7 @@
 var canvas_width = screen.width / 2;
 var canvas_height = screen.height / 2;
 var padding = 30;
-var line_count = 24;
+var line_count = 28;
 var spacing = (canvas_width - 2*padding )/(line_count-1);
 let angle =0;
 let erase = true;
@@ -21,7 +21,7 @@ function setup() {
   canvas.parent('sketch-holder');
   angleMode(DEGREES);
   background(255);
-  strokeWeight(canvas_width/90);
+  strokeWeight(canvas_width/70);
   make();
 
 }
