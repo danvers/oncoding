@@ -13,7 +13,7 @@
             $(window).scroll(function() {
                 var windowBottom = $(this).scrollTop() + $(this).innerHeight();
                 $(".item").each(function() {
-                    var objectBottom = $(this).offset().top + ($(this).outerHeight() /1.5);
+                    var objectBottom = $(this).offset().top + ($(this).outerHeight() /3);
                     if (objectBottom < windowBottom) {
                         if ($(this).css("opacity")==0) {$(this).fadeTo(800,1);}
                     } else {
