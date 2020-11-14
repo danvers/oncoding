@@ -147,6 +147,34 @@
             margin:0 1em;
             height:50px;
         }
+
+        @media screen and (max-width: 1300px) {
+            h2{
+                font-size: 300%;
+            }
+        }
+        @media screen and (max-width: 992px) {
+            h2{
+                font-size: 250%;
+            }
+            canvas{
+                width:300px !important;
+                height:300px !important;
+            }
+            .headline .date{
+                margin:0;
+                padding:.5em 0 0 0;
+            }
+            .item h3{
+                font-size: 140%;
+            }
+            h4{
+                font-size: 100%;
+            }
+            #wrapper{
+                width:80%;
+            }
+        }
         /* Portrait */
         @media only screen
         and (min-device-width: 320px)
@@ -163,37 +191,13 @@
                 display:none;
             }
             h2{
-                font-size: 200%;
+                font-size: 180%;
             }
             h3{
-                font-size: 130%;
+                font-size: 120%;
             }
             .header{
                 text-align: center;
-            }
-        }
-        @media screen and (max-width: 992px) {
-            h2{
-                font-size: 200%;
-            }
-            canvas{
-                width:300px !important;
-                height:300px !important;
-            }
-            .headline .date{
-                margin:0;
-                padding:.5em 0 0 0;
-            }
-            .item h3{
-                font-size: 140%;
-            }
-            h4{
-                font-size: 100%;
-            }
-        }
-        @media screen and (max-width: 1300px) {
-            h2{
-                font-size: 300%;
             }
         }
     </style>
