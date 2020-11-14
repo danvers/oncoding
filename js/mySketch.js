@@ -1,7 +1,7 @@
 var canvas_width = screen.width / 2;
 var canvas_height = screen.height / 2;
-var padding = 30;
-var line_count = 28;
+var padding = 20;
+var line_count = 30;
 var spacing = (canvas_width - 2*padding )/(line_count-1);
 let angle =0;
 let erase = true;
@@ -23,7 +23,6 @@ function setup() {
   background(255);
   strokeWeight(canvas_width/70);
   make();
-
 }
 
 function draw() {
@@ -63,7 +62,7 @@ function make() {
         re=map(a,0,35,0,255);
         blu=255-map(a,0,35,0,255);
         stroke(re,0,blu, re);
-        line(0, -spacing*0.9, 0, spacing*0.9);
+        line(0, -spacing*0.6, 0, spacing*0.6);
         pop();
       }
     }
