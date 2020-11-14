@@ -1,7 +1,7 @@
 var canvas_width = screen.width / 2;
 var canvas_height = screen.height / 2;
-var padding = 20;
-var line_count = 39;
+var padding = 30;
+var line_count = 24;
 var spacing = (canvas_width - 2*padding )/(line_count-1);
 let angle =0;
 let erase = true;
@@ -13,15 +13,15 @@ var re=255;
 var blu=255;
 
 function setup() {
-  if(canvas_width > 400){
-    canvas_width = 400;
-    canvas_height = 400;
+  if(canvas_width > 350){
+    canvas_width = 350;
+    canvas_height = 350;
   }
   var canvas = createCanvas(canvas_width, canvas_height);
   canvas.parent('sketch-holder');
   angleMode(DEGREES);
   background(255);
-  strokeWeight(5);
+  strokeWeight(canvas_width/90);
   make();
 
 }
@@ -30,8 +30,10 @@ function draw() {
  
 }
 
-function mouseClicked() {
-  make();
+function mouseWheel() {
+  if(window.innerHeight > window.pageYOffset) {
+    make();
+  }
 }
 
 function make() {

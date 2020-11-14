@@ -13,11 +13,14 @@
             $(window).scroll(function() {
                 var windowBottom = $(this).scrollTop() + $(this).innerHeight();
                 $(".item").each(function() {
-                    var objectBottom = $(this).offset().top + ($(this).outerHeight() /3);
+                    var objectBottom = $(this).offset().top + ($(this).outerHeight()/3);
                     if (objectBottom < windowBottom) {
                         if ($(this).css("opacity")<1) {$(this).fadeTo(800,1);}
+                    }else if(objectBottom < window.pageYOffset){
+                        alert('test');
+
                     } else {
-                        if ($(this).css("opacity")==1) {$(this).fadeTo(800,0.24);}
+                        if ($(this).css("opacity")==1) {$(this).fadeTo(300,0.24);}
                     }
                 });
             }).scroll(); //invoke scroll-handler on page-load
