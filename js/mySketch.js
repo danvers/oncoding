@@ -37,19 +37,20 @@ function mouseWheel() {
 
 function make() {
   clear();
-  for (i=0;i<=line_count-1; i++)
+  for (i=0;i<=line_count-18; i++)
   {
     var xoff=0;
-    for (j=0;j<=line_count-3; j++)
+    for (j=0;j<=line_count-18; j++)
     {
       noiseDetail(5, 0.9);
       var r=noise(xoff,yoff);
       xoff+=inc;
         if (r<=thr)
         {
-					erase = true;
+          erase = true;
+        }else{
+          erase = false;
         }
-      else{erase = false;}
       if(!erase)
       {
 
