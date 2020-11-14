@@ -1,7 +1,7 @@
 var canvas_width = screen.width / 2;
 var canvas_height = screen.height / 2;
-var padding = 10;
-var line_count = 15;
+var padding = 20;
+var line_count = 29;
 var spacing = (canvas_width - 2*padding )/(line_count-1);
 let angle =0;
 let erase = true;
@@ -21,7 +21,8 @@ function setup() {
   canvas.parent('sketch-holder');
   angleMode(DEGREES);
   background(255);
-  strokeWeight(3);
+  strokeWeight(5);
+  frameRate(4);
   make();
 
 }
@@ -61,7 +62,6 @@ function make() {
         re=map(a,0,35,0,255);
         blu=255-map(a,0,35,0,255);
         stroke(re,0,blu, re);
-       // stroke(0,re); //black and white
         line(0, -spacing*0.9, 0, spacing*0.9);
         pop();
       }
