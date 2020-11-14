@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="https://www.openprocessing.org/openprocessing_sketch.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script src="js/mySketch.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(window).on("load",function() {
+            $(window).scroll(function() {
+                var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+                $(".item").each(function() {
+                    var objectBottom = $(this).offset().top + ($(this).outerHeight() /2);
+                    if (objectBottom < windowBottom) {
+                        if ($(this).css("opacity")==0) {$(this).fadeTo(800,1);}
+                    } else {
+                        if ($(this).css("opacity")==1) {$(this).fadeTo(800,0);}
+                    }
+                });
+            }).scroll(); //invoke scroll-handler on page-load
+        });
+    </script>
+    <style type="text/css">
+
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,100&display=swap');
+        body{
+            font-family:"Montserrat";
+        }
+        #wrapper{
+            width:70%;
+            margin:auto;
+        }
+        p{
+            line-height:1.4;
+        }
+        table{
+            margin:4em 0;
+        }
+        a{
+            color:#ff0000;
+            text-decoration: none;
+            border-bottom: 1px solid #ff0000;
+        }
+        a:hover, a:focus{
+            color: #ce65bf;
+            border-bottom: 1px solid #ce278e;
+            transition: color 0.5s ease;
+        }
+        h2{
+            font-weight: 400;
+            color:#ff0000;
+            font-size:400%;
+            line-height: 1.3em;
+            margin:0;
+        }
+        h3 {
+            font-size: 2em;
+            color: #ff0000;
+            font-weight: 350;
+            display:block;
+            margin:0;
+            padding:0;
+            line-height:1;
+        }
+        h3.main{
+            font-weight: bold;
+        }
+        h4{
+            color:#bf8ece;
+            margin: 4em 0 1em 0;
+            font-size: 1.2em;
+        }
+        .bold-text{
+            color:#ff0000;
+        }
+        .name{
+            font-weight:bold;
+            color:#bf8ece;
+        }
+        .date{
+            font-weight: bold;
+            color:#bf8ece;
+            padding:2em 0 0 0;
+            margin:3em 0 0;
+            font-size: smaller;
+        }
+        hr{
+            border: 2px solid #f4f5f7;
+            border-radius: 5px;
+            margin:2em 0;
+        }
+        .headline{
+            margin:5em 0 3em 0;
+        }
+        td strong{
+            color:#bf8ece;
+        }
+        .more a{
+            font-style: italic;
+            border: none;
+        }
+        .more ul{
+            list-style: none;
+            margin:0;
+            padding:0;
+        }
+        .more ul li{
+            margin: 0.2em 0;
+        }
+        .header{
+            margin:2em 0;
+        }
+        canvas{
+            float:left;
+            height:40%;
+            width:40%;
+            margin:0 1em 1em 0;
+        }
+        .spacer{
+            height:15%;
+            width:15%;
+        }
+        .headline img{
+            float:left;
+            width:15%;
+            height:15%;
+        }
+        .item p{
+            clear:both;
+        }
+        #footer span{
+            display: block;
+            text-align: center;
+            margin:2em 0;
+        }
+        #footer a{
+            border:none;
+        }
+        #footer img{
+            margin:0 1em;
+            height:50px;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+<div class="header">
+    <div id="sketch-holder">
+        <!-- Our sketch will go here! -->
+    </div>
+    <h2 id="page-title">Coding Literacy, Practices & Cultures</h2>
+    <img class="spacer" src="images/spacer.png">
+    <h3>A networked series of research colloquia</h3>
+</div>
+<div style="clear: both"></div>
+<p>We live in a world of algorithmic sorting and decision-making. Mathematical models are curating our social relationships, influencing our elections, and even deciding whether or not we should go to prison. But how much do we really know about code, algorithmic infrastructures and their cultural implications? And what can we learn about creativity in a digital age?</p>
+<p>The networked series of research colloquia on <strong class="bold-text">coding literacy, practices and cultures</strong> with international experts will give insights to the complexity of coding , digital architectures, and the different cultures code is engaged with in one form or the other. The events will be held with <a href="http://zoom.us">zoom</a>.</p>
+<p>You can join by simply clicking on <a href="https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09">this link</a> or using the following data:</p>
+<table>
+    <tbody>
+    <tr>
+        <td><strong>Meeting-ID:</strong></td>
+        <td><a href="https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09">941 3048 0538</a></td>
+    </tr>
+    <tr>
+        <td><strong>passphrase:</strong></td>
+        <td>coding</td>
+    </tr>
+    </tbody>
+</table>
+<hr />
+    <div class="item">
+        <div class="headline">
+            <img src="images/image1.png">
+            <div class="date">19. Nov. 20 - 17-19h</div>
+            <h3 class="main">Annette Vee on Coding Literacy:</h3><h3>How Computer Programming Is Changing Writing</h3>
+        </div>
+
+        <p><span class="name">Annette Vee</span> is Associate Professor of English and Director of the Composition Program, at the University of Pittsburgh, Pennsylvania where she teaches undergraduate and graduate courses in writing, digital composition, materiality, and literacy. Her teaching, research and service all dwell at the intersections between computation and writing. She is the author of <a href="https://mitpress.mit.edu/books/coding-literacy">Coding Literacy</a> (MIT Press, 2017), which demonstrates how the theoretical tools of literacy can help us understand computer programming in its historical, social and conceptual contexts. Her work is read in dozens of university courses in literacy, composition, textual studies, digital humanities, and computer science education.</p>
+
+        <div class="more">
+        <h4>More about Annette Vee</h4>
+        <ul>
+            <li>University of Pittsburgh: <a href="https://www.composition.pitt.edu/person/annette-vee">composition.pitt.edu/person/annette-vee</a></li>
+            <li>Annette Vee on twitter: <a href="https://twitter.com/anetv">twitter.com/anetv</a></li>
+        </ul>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="headline">
+            <img src="images/image2.png">
+            <div class="date">03. Dec. 20 - 17-19h</div>
+            <h3 class="main">Stefan Püst on Coding Practices and Music:</h3><h3>Sequencing in Live Performances - Towards a textual language interface for high level composition </h3>
+        </div>
+        <p>After earning his B.Sc. in Computer Science at the University of Applied Science in Brandenburg, <span class="name">Stefan Püst</span> worked as Android App developer for telematics system at the IBM Client Innovation Center in Magdeburg, next to pursuing a master&rsquo;s degree in the digital media program at the University of Applied Science in Brandenburg. Since 2016 he has worked as IT admin at the Film University Babelsberg. He was responsible for managing the computer lab infrastructure for the Animation, Set Design and Creative Technologies programs. Since 2019 Stefan Püst is a research associate in the Creative Technologies group and pursues a PhD and researches music interaction mechanisms.</p>
+        <div class="more">
+        <h4>More about Stefan Püst</h4>
+        <ul>
+            <li>Film University: <a href="https://www.filmuniversitaet.de/portrait/person/stefan-puest">filmuniversitaet.de/portrait/person/stefan-puest</a></li>
+        </ul>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="headline">
+            <img src="images/image3.png">
+            <div class="date">07. Jan. 21 - 15-17h</div>
+            <h3 class="main">Pierre Depaz</h3><h3>on the role of aesthetics in understanding source code</h3>
+        </div>
+        <p><span class="name">Pierre Depaz</span> practically, writes software for arts and media organizations, such as <a href="https://pierredepaz.net/project/000_thelitany.json">museum pieces</a>, <a href="https://pierredepaz.net/project/010_skypeheartbreakshow.json">interactive installations</a>, <a href="https://pierredepaz.net/project/006_recompositions.json">machine learning</a> or <a href="https://pierredepaz.net/project/020_synaesthesiaplayground.json">live performance</a>, amongst others. Conceptually, he wrote versions of <a href="https://github.com/periode/augmenting-gallery">augmenting</a> the gallery, <a href="https://github.com/periode/politics-of-code/">politics</a> of code, software art (<a href="https://github.com/periode/software-art-image">image</a> + <a href="https://github.com/periode/software-art-text">text</a>) , alternate <a href="https://github.com/periode/alternate-realities">realities</a>, <a href="http://commlab.nyuad.im">communications</a> lab at new york university, digital <a href="https://github.com/periode/digital-culture">culture</a> at sciences po and computational <a href="https://github.com/periode/computational-representations/">representations</a> at the Film University. He currently teaches some of these.</p>
+        <p>Weaving it all together, he&rsquo;s writing a <a href="http://thesis.enframed.net">doctoral thesis</a> on the role of aesthetics in the understandings of source code.</p>
+        <div class="more">
+            <h4>More about Pierre Depaz</h4>
+            <ul>
+                <li>His personal website: <a href="https://pierredepaz.net/">pierredepaz.net/</a></li>
+                <li>Pierre Depaz on twitter: <a href="https://twitter.com/kasipierre">twitter.com/kasipierre</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="item">
+        <div class="headline">
+            <img src="images/image1.png">
+            <div class="date">25. Feb. 21 - 17-19h</div>
+            <h3 class="main">Eleni-Ira Panourgia on constructing behaviour from physical to digital:</h3><h3>Form, response and playability across sound and sculpture</h3>
+        </div>
+        <p><span class="name">Eleni-Ira Panourgia</span> is a Teaching and Research Fellow (ATER) at Gustave Eiffel University (former Paris-Est Marne-la-Vallée). She recently completed a PhD in Art at the University of Edinburgh as a Scholar of the Onassis Foundation. Her research focuses on intersections of sculpture, spatial dimensions and sound. She is working simultaneously on physical material and sound and is interested in developing an understanding of such complex morphologies and their potential within artistic, design and social processes. Her research interests also include material exploration, audio-visual relationships, participatory and interactive design.</p>
+        <div class="more">
+            <h4>More about Eleni-Ira Panourgia</h4>
+            <ul>
+                <li>Her personal website: <a href="http://www.eleniirapanourgia.com/">eleniirapanourgia.com/</a></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="headline">
+            <img src="images/image5.png">
+            <div class="date">11. Mar. 21 - 17-19h</div>
+            <h3 class="main">Juliane Ahlborn on the computation of arts</h3><h3>Aesthetics - Subject - Education</h3>
+        </div>
+        <p><span class="name">Juliane Ahlborn</span> completed her studies of Media Education - Audiovisual Culture and Communication at the Otto-von-Guericke University Magdeburg in March 2020. She works as a research assistant at the Centre for Teacher Training at the Otto-von-Guericke University. Furthermore, she is holding a scholarship of the State of Saxony-Anhalt since July 2020. In her dissertation on <a href="https://www.ebdw.ovgu.de/ebdw/en/aiandart-p-500.html">Aesthetics - Subject - Education: The computation of arts</a>, she is concerned with changed structural conditions for education and subjectivation that owe their existence to digital mediality.</p>
+        <div class="more">
+            <h4>More about Juliane Ahlborn</h4>
+            <ul>
+                <li>Research Portal of Saxony-Anhalt: <a href="https://forschung-sachsen-anhalt.de/pl/ahlborn-117151">forschung-sachsen-anhalt.de/pl/ahlborn-117151</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="headline">
+            <img src="images/image1.png">
+            <div class="date">April 2021</div>
+            <h3>Potential Event with <strong style="font-weight: 800">Anna Xambó</strong></h3>
+        </div>
+        <p>Dates and more information to be published.</p>
+        <div class="more">
+            <h4>More about Anna Xambó</h4>
+            <ul>
+                <li>Her personal website: <a href="http://annaxambo.me/">annaxambo.me/</a></li>
+            </ul>
+        </div>
+    </div>
+
+<hr />
+    <div id="footer">
+        <h4>About the event series</h4>
+        <p>The networked series of research colloquia is organized by <a href="https://www.ebdw.ovgu.de/ebdw/en/Team/Dan+Verst%C3%A4ndig-p-232.html">Dan Verständig</a> (University of Magdeburg / Germany) and&nbsp;<a href="https://www.filmuniversitaet.de/portrait/person/angela-brennecke/">Angela Brennecke</a> (Film University KONRAD WOLF in Potsdam Babelsberg / Germany).&nbsp;</p>
+        <p>Processing Sketch used in header: <a href="http://www.openprocessing.org/sketch/1014150">Vera Molnár Interruption</a> by <a href="https://www.openprocessing.org/user/105400">Rita Eperjesi</a> Licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0https://creativecommons.org/licenses/GPL/2.0/">Creative Commons Attribution ShareAlike</a></p>
+        <span>
+        <a href="https://www.ebdw.ovgu.de/ebdw/en/"><img style="margin-bottom:-4px;" src="images/ovgulogo.png"></a> <a href="https://www.filmuniversitaet.de/"><img src="images/filmuniversitaet.png"></a>
+        </span>
+    </div>
+</div>
+</body>
+</html>
