@@ -14,12 +14,10 @@ table{
 }
 a{
     color:#ff0000;
-    text-decoration: none;
-    border-bottom: 1px solid #ff0000;
 }
 a:hover, a:focus{
     color: #ce65bf;
-    border-bottom: none;
+    text-decoration: none;
     transition: color 0.5s ease;
 }
 h2{
@@ -46,6 +44,7 @@ h4{
     margin: 4em 0 1em 0;
     font-size: 1.2em;
 }
+
 .bold-text{
     color:#ff0000;
 }
@@ -60,6 +59,33 @@ h4{
     margin:3em 0 0;
     font-size: smaller;
 }
+
+#utils{
+    clear:both;
+    margin:2em 0 0 0;
+}
+.btn-home {
+    background-color: #ce65bf;
+    border-color: #cea3af;
+    color: #fff;
+    transition: .5s;
+}
+
+/* Change how it looks when hovered or clicked */
+
+.btn-home:hover {
+    background-color: #ce25aa;
+    border-color: #ce278e;
+    color: #fff;
+}
+
+.btn-home:active {
+    background-color: red;
+    border-color: #ce278e;
+    color: #fff;
+}
+
+
 hr{
     border: 2px solid #f4f5f7;
     border-radius: 5px;
