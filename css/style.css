@@ -224,4 +224,8 @@ and (orientation: portrait) {
     .header{
         text-align: center;
     }
+    #footer span img{
+        width: 80%;
+        margin:2em;
+    }
 }
