@@ -9,22 +9,28 @@
     <script src="js/mySketch.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript">
+        $.fn.isInViewport = function () {
+            let elementTop = $(this).offset().top;
+            let elementBottom = elementTop + ( $(this).outerHeight()/3 );
 
+            let viewportTop = $(window).scrollTop() ;
+            let viewportBottom = viewportTop + $(window).height()- ($(this).innerHeight() /2);
+            return elementBottom > viewportTop && elementTop < viewportBottom;
+
+        };
         $(window).on("load",function() {
 
             $(window).scroll(function() {
-
-                var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+   
                 $(".item").each(function() {
-                    var objectBottom = $(this).offset().top + ($(this).outerHeight()/3);
-                    if (objectBottom < windowBottom && (objectBottom + $(this).height() > $(this).scrollTop()  ) ) {
-
-                        if ($(this).css("opacity")<1) {$(this).fadeTo(800,1);}
-                    }else{
-                        $(this).css({'opacity':0.24});
-                    }
+                   if($(this).isInViewport()){
+                       $(this).css('opacity',1);
+                   }else{
+                       $(this).css('opacity',.2);
+                   }
                 });
-            }).scroll(); //invoke scroll-handler on page-load
+
+            });
         });
     </script>
     <style type="text/css">
@@ -143,9 +149,13 @@
             height:15%;
             margin:2em 0 0 0;
         }
+        .item{
+            transition: .9s;
+        }
         .item p{
             clear:both;
         }
+
         #footer span{
             display: block;
             text-align: center;
@@ -159,7 +169,8 @@
         #footer span a:hover, #footer span a:focus{
             opacity: 1;
         }
-        #footer img{
+
+        #footer span img{
             margin:0 1.2em;
             height:60px;
         }
@@ -353,7 +364,8 @@
 
         <h4>About the event series</h4>
         <p>The networked series of research colloquia is organized by <a href="https://www.ebdw.ovgu.de/ebdw/en/Team/Dan+Verst%C3%A4ndig-p-232.html">Dan Verständig</a> (University of Magdeburg / Germany) and&nbsp;<a href="https://www.filmuniversitaet.de/portrait/person/angela-brennecke/">Angela Brennecke</a> (Film University KONRAD WOLF in Potsdam Babelsberg / Germany).&nbsp;</p>
-        <p>Processing Sketch based on: <a href="http://www.openprocessing.org/sketch/1014150">Vera Molnár Interruption</a> by <a href="https://www.openprocessing.org/user/105400">Rita Eperjesi</a>. Licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0https://creativecommons.org/licenses/GPL/2.0/">Creative Commons Attribution ShareAlike</a></p><span>
+        <p>Processing Sketch based on: <a href="http://www.openprocessing.org/sketch/1014150">Vera Molnár Interruption</a> by <a href="https://www.openprocessing.org/user/105400">Rita Eperjesi</a>. Licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0"><img src="images/CC-BY-SA_icon.png" alt="Creative Commons Attribution ShareAlike" /></a></p>
+        <span>
         <a href="https://www.ebdw.ovgu.de/ebdw/en/"><img style="margin-bottom:-4px;" src="images/ovgulogo.png"></a> <a href="https://www.filmuniversitaet.de/"><img src="images/filmuniversitaet.png"></a>
         </span>
     </div>
