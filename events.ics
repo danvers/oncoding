@@ -22,8 +22,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20201119T112619Z
-UID:20201119T112619Z-1250406841@marudot.com
+DTSTAMP:20201121T153210Z
+UID:20201121T153210Z-149218416@marudot.com
 DTSTART;TZID=Europe/Berlin:20201119T170000
 DTEND;TZID=Europe/Berlin:20201119T190000
 SUMMARY:Annette Vee on Coding Literacy: How Computer Programming Is Changing Writing
@@ -32,8 +32,8 @@ DESCRIPTION:Annette Vee is Associate Professor of English and Director of the Co
 LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20201119T112619Z
-UID:20201119T112619Z-162535628@marudot.com
+DTSTAMP:20201121T153210Z
+UID:20201121T153210Z-1101240029@marudot.com
 DTSTART;TZID=Europe/Berlin:20201203T170000
 DTEND;TZID=Europe/Berlin:20201203T190000
 SUMMARY:Stefan Püst on Coding Practices and Music: Towards a Textual Language Interface for High Level Composition 
@@ -42,8 +42,8 @@ DESCRIPTION:After earning his B.Sc. in Computer Science at the University of App
 LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20201119T112619Z
-UID:20201119T112619Z-1780430483@marudot.com
+DTSTAMP:20201121T153210Z
+UID:20201121T153210Z-202996627@marudot.com
 DTSTART;TZID=Europe/Berlin:20210107T150000
 DTEND;TZID=Europe/Berlin:20210107T170000
 SUMMARY:Pierre Depaz On the Role of Aesthetics In Understanding Source Code
@@ -52,8 +52,8 @@ DESCRIPTION:Pierre Depaz practically\, writes software for arts and media organi
 LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20201119T112619Z
-UID:20201119T112619Z-934046924@marudot.com
+DTSTAMP:20201121T153210Z
+UID:20201121T153210Z-1854295459@marudot.com
 DTSTART;TZID=Europe/Berlin:20210225T170000
 DTEND;TZID=Europe/Berlin:20210225T190000
 SUMMARY:Eleni-Ira Panourgia on Constructing Behaviour from Physical to Digital: Form\, response and playability across sound and sculpture
@@ -62,8 +62,8 @@ DESCRIPTION:Eleni-Ira Panourgia is a Teaching and Research Fellow (ATER) at Gust
 LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20201119T112619Z
-UID:20201119T112619Z-1253432684@marudot.com
+DTSTAMP:20201121T153210Z
+UID:20201121T153210Z-1292102035@marudot.com
 DTSTART;TZID=Europe/Berlin:20210311T170000
 DTEND;TZID=Europe/Berlin:20210311T190000
 SUMMARY:Juliane Ahlborn on the Computation of Arts Aesthetics - Subject - Education
@@ -72,13 +72,23 @@ DESCRIPTION:Juliane Ahlborn completed her studies of Media Education - Audiovisu
 LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20201119T112619Z
-UID:20201119T112619Z-2085910151@marudot.com
+DTSTAMP:20201121T153210Z
+UID:20201121T153210Z-777273536@marudot.com
 DTSTART;TZID=Europe/Berlin:20210429T170000
 DTEND;TZID=Europe/Berlin:20210429T190000
 SUMMARY:Anna Xambó Sedó on collaborative live coding
 URL:https://danvers.github.io/oncoding/#ax
 DESCRIPTION:Anna Xambó Sedó is a researcher and musician with background in computer science engineering\, digital humanities and digital arts. She is currently a Senior Lecturer in Music and Audio Technology at the Faculty of Computing\, Engineering and Media (CEM) at De Montfort University (DMU) and work as the principal investigator (PI) for the EPSRC HDI Network Plus funded project MIRLCAuto: A Virtual Agent for Music Information Retrieval in Live Coding at the Music\, Technology and Innovation - Institute for Sonic Creativity (MTI^2) in Leicester\, UK. She is also the programme leader of the BSc Digital Music Technology programme. Since 2019\, she is an Associate Fellow at the Higher Education Academy.\n\nIn 2015\, Anna Xambó Sedó completed her PhD in computer-supported collaboration on interactive tabletops for music performance at The Open University (Milton Keynes\, UK). Her thesis is entitled Tabletop Tangible Interfaces for Music Performance: Design and Evaluation.
+LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20201121T153210Z
+UID:20201121T153210Z-125035945@marudot.com
+DTSTART;TZID=Europe/Berlin:20210513T170000
+DTEND;TZID=Europe/Berlin:20210513T190000
+SUMMARY:Nick Seaver on Refiguring the Black Box: The Ethnography of Algorithmic Systems
+URL:https://danvers.github.io/oncoding/#nps
+DESCRIPTION:Nick Seaver is an assistant professor in the Department of Anthropology at Tufts University\, where he also teaches in the Science\, Technology\, and Society program. Before that\, he got his undergraduate degree in Literature at Yale University\, a Masters of Science in Comparative Media Studies from MIT\, and his PhD in Anthropology from UC Irvine.\n\nHe is writing a book about the makers of music recommender systems and how they think\, about music\, listeners\, and listening. Computing Taste: The Making of Algorithmic Music Recommendation draws on years of ethnographic fieldwork with researchers\, engineers\, and others in industry and academia. Nick Seaver also wrote the significant contributions on the ethnography of algorithmic systems and the history of player pianos.
 LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
 END:VEVENT
 END:VCALENDAR
