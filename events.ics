@@ -22,73 +22,83 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20201121T153210Z
-UID:20201121T153210Z-149218416@marudot.com
+DTSTAMP:20210510T111946Z
+UID:20210510T111946Z-1512054270@marudot.com
 DTSTART;TZID=Europe/Berlin:20201119T170000
 DTEND;TZID=Europe/Berlin:20201119T190000
 SUMMARY:Annette Vee on Coding Literacy: How Computer Programming Is Changing Writing
 URL:https://danvers.github.io/oncoding/#av
 DESCRIPTION:Annette Vee is Associate Professor of English and Director of the Composition Program\, at the University of Pittsburgh\, Pennsylvania where she teaches undergraduate and graduate courses in writing\, digital composition\, materiality\, and literacy. Her teaching\, research and service all dwell at the intersections between computation and writing. She is the author of Coding Literacy (MIT Press\, 2017)\, which demonstrates how the theoretical tools of literacy can help us understand computer programming in its historical\, social and conceptual contexts. Her work is read in dozens of university courses in literacy\, composition\, textual studies\, digital humanities\, and computer science education.
-LOCATION:https://ovgu.zoom.us/j/93906072823?pwd=cXZEeDRxSTZTa3NYaDR4MEsxeXlnZz09
+LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20201121T153210Z
-UID:20201121T153210Z-1101240029@marudot.com
+DTSTAMP:20210510T111946Z
+UID:20210510T111946Z-1898792075@marudot.com
 DTSTART;TZID=Europe/Berlin:20201203T170000
 DTEND;TZID=Europe/Berlin:20201203T190000
-SUMMARY:Stefan Püst on Coding Practices and Music: Towards a Textual Language Interface for High Level Composition 
+SUMMARY:Stefan Püst on Coding Practices and Music: Towards a Textual Language Interface for High Level Composition
 URL:https://danvers.github.io/oncoding/#sp
 DESCRIPTION:After earning his B.Sc. in Computer Science at the University of Applied Science in Brandenburg\, Stefan Püst worked as Android App developer for telematics system at the IBM Client Innovation Center in Magdeburg\, next to pursuing a master’s degree in the digital media program at the University of Applied Science in Brandenburg. Since 2016 he has worked as IT admin at the Film University Babelsberg. He was responsible for managing the computer lab infrastructure for the Animation\, Set Design and Creative Technologies programs. Since 2019 Stefan Püst is a research associate in the Creative Technologies group and pursues a PhD and researches music interaction mechanisms.
-LOCATION:https://ovgu.zoom.us/j/93906072823?pwd=cXZEeDRxSTZTa3NYaDR4MEsxeXlnZz09
+LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20201121T153210Z
-UID:20201121T153210Z-202996627@marudot.com
+DTSTAMP:20210510T111946Z
+UID:20210510T111946Z-378729535@marudot.com
 DTSTART;TZID=Europe/Berlin:20210107T150000
 DTEND;TZID=Europe/Berlin:20210107T170000
 SUMMARY:Pierre Depaz On the Role of Aesthetics In Understanding Source Code
 URL:https://danvers.github.io/oncoding/#pd
 DESCRIPTION:Pierre Depaz practically\, writes software for arts and media organizations\, such as museum pieces\, interactive installations\, machine learning or live performance\, amongst others. Conceptually\, he wrote versions of augmenting the gallery\, politics of code\, software art (image + text) \, alternate realities\, communications lab at new york university\, digital culture at sciences po and computational representations at the Film University. He currently teaches some of these.\n\nWeaving it all together\, he’s writing a doctoral thesis on the role of aesthetics in the understandings of source code.
-LOCATION:https://ovgu.zoom.us/j/93906072823?pwd=cXZEeDRxSTZTa3NYaDR4MEsxeXlnZz09
+LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20201121T153210Z
-UID:20201121T153210Z-1854295459@marudot.com
+DTSTAMP:20210510T111946Z
+UID:20210510T111946Z-480089084@marudot.com
 DTSTART;TZID=Europe/Berlin:20210225T170000
 DTEND;TZID=Europe/Berlin:20210225T190000
 SUMMARY:Eleni-Ira Panourgia on Constructing Behaviour from Physical to Digital: Form\, response and playability across sound and sculpture
 URL:https://danvers.github.io/oncoding/#ep
 DESCRIPTION:Eleni-Ira Panourgia is a Teaching and Research Fellow (ATER) at Gustave Eiffel University (former Paris-Est Marne-la-Vallée). She recently completed a PhD in Art at the University of Edinburgh as a Scholar of the Onassis Foundation. Her research focuses on intersections of sculpture\, spatial dimensions and sound. She is working simultaneously on physical material and sound and is interested in developing an understanding of such complex morphologies and their potential within artistic\, design and social processes. Her research interests also include material exploration\, audio-visual relationships\, participatory and interactive design.
-LOCATION:https://ovgu.zoom.us/j/93906072823?pwd=cXZEeDRxSTZTa3NYaDR4MEsxeXlnZz09
+LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20201121T153210Z
-UID:20201121T153210Z-1292102035@marudot.com
+DTSTAMP:20210510T111946Z
+UID:20210510T111946Z-924888476@marudot.com
 DTSTART;TZID=Europe/Berlin:20210311T170000
 DTEND;TZID=Europe/Berlin:20210311T190000
 SUMMARY:Juliane Ahlborn on the Computation of Arts Aesthetics - Subject - Education
 URL:https://danvers.github.io/oncoding/#ja
 DESCRIPTION:Juliane Ahlborn completed her studies of Media Education - Audiovisual Culture and Communication at the Otto-von-Guericke University Magdeburg in March 2020. She works as a research assistant at the Centre for Teacher Training at the Otto-von-Guericke University. Furthermore\, she is holding a scholarship of the State of Saxony-Anhalt since July 2020. In her dissertation on Aesthetics - Subject - Education: The computation of arts\, she is concerned with changed structural conditions for education and subjectivation that owe their existence to digital mediality.
-LOCATION:https://ovgu.zoom.us/j/93906072823?pwd=cXZEeDRxSTZTa3NYaDR4MEsxeXlnZz09
+LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20201121T153210Z
-UID:20201121T153210Z-777273536@marudot.com
+DTSTAMP:20210510T111946Z
+UID:20210510T111946Z-2135087474@marudot.com
 DTSTART;TZID=Europe/Berlin:20210429T170000
 DTEND;TZID=Europe/Berlin:20210429T190000
 SUMMARY:Anna Xambó Sedó on collaborative live coding
 URL:https://danvers.github.io/oncoding/#ax
 DESCRIPTION:Anna Xambó Sedó is a researcher and musician with background in computer science engineering\, digital humanities and digital arts. She is currently a Senior Lecturer in Music and Audio Technology at the Faculty of Computing\, Engineering and Media (CEM) at De Montfort University (DMU) and work as the principal investigator (PI) for the EPSRC HDI Network Plus funded project MIRLCAuto: A Virtual Agent for Music Information Retrieval in Live Coding at the Music\, Technology and Innovation - Institute for Sonic Creativity (MTI^2) in Leicester\, UK. She is also the programme leader of the BSc Digital Music Technology programme. Since 2019\, she is an Associate Fellow at the Higher Education Academy.\n\nIn 2015\, Anna Xambó Sedó completed her PhD in computer-supported collaboration on interactive tabletops for music performance at The Open University (Milton Keynes\, UK). Her thesis is entitled Tabletop Tangible Interfaces for Music Performance: Design and Evaluation.
-LOCATION:https://ovgu.zoom.us/j/93906072823?pwd=cXZEeDRxSTZTa3NYaDR4MEsxeXlnZz09
+LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20201121T153210Z
-UID:20201121T153210Z-125035945@marudot.com
+DTSTAMP:20210510T111946Z
+UID:20210510T111946Z-163982589@marudot.com
 DTSTART;TZID=Europe/Berlin:20210513T170000
 DTEND;TZID=Europe/Berlin:20210513T190000
 SUMMARY:Nick Seaver on Refiguring the Black Box: The Ethnography of Algorithmic Systems
 URL:https://danvers.github.io/oncoding/#nps
 DESCRIPTION:Nick Seaver is an assistant professor in the Department of Anthropology at Tufts University\, where he also teaches in the Science\, Technology\, and Society program. Before that\, he got his undergraduate degree in Literature at Yale University\, a Masters of Science in Comparative Media Studies from MIT\, and his PhD in Anthropology from UC Irvine.\n\nHe is writing a book about the makers of music recommender systems and how they think\, about music\, listeners\, and listening. Computing Taste: The Making of Algorithmic Music Recommendation draws on years of ethnographic fieldwork with researchers\, engineers\, and others in industry and academia. Nick Seaver also wrote the significant contributions on the ethnography of algorithmic systems and the history of player pianos.
-LOCATION:https://ovgu.zoom.us/j/93906072823?pwd=cXZEeDRxSTZTa3NYaDR4MEsxeXlnZz09
+LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20210510T111946Z
+UID:20210510T111946Z-1657898412@marudot.com
+DTSTART;TZID=Europe/Berlin:20210617T170000
+DTEND;TZID=Europe/Berlin:20210617T190000
+SUMMARY:Winnie Soon and Geoff Cox on Aesthetic Programming: A Handbook of Software Studies
+URL:https://danvers.github.io/oncoding/#wsgx
+DESCRIPTION:At this closing event\, Winnie Soon and Geoff Cox will talk about their recently published book project: Aesthetic Programming: A Handbook for Software Studies. The project explores the technical as well as cultural imaginaries of programming from its insides. It follows the principle that the growing importance of software requires a new kind of cultural thinking — and curriculum — that can account for\, and with which to better understand the politics and aesthetics of algorithmic procedures\, data processing and abstraction.
+LOCATION:https://ovgu.zoom.us/j/94130480538?pwd=K2JUNStwR1IvVUkrZTFpTEJQMmlKdz09
 END:VEVENT
 END:VCALENDAR
